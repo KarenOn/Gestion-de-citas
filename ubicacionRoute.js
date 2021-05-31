@@ -1,5 +1,5 @@
 module.exports = app => {
-    const ubicacion = require('../controllers/ubicacionController.js');
+    const ubicacion = require('./ubicacionController.js');
 
     app.get('/ubicacion', ubicacion.findAll);
 
