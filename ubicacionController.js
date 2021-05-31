@@ -1,4 +1,4 @@
-const Ubicacion = require("../models/ubicacionModel.js");
+const Ubicacion = require("./ubicacionModel.js");
 
 exports.findAll = (req, res) => {
   Ubicacion.getAll((err, data) => {
