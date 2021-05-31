@@ -1,4 +1,4 @@
-const Usuarios = require("../models/userModel.js");
+const Usuarios = require("./userModel.js");
 
 exports.findAll = (req, res) => {
   Usuarios.getAll((err, data) => {
