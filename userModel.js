@@ -1,4 +1,4 @@
-const sql = require('../db.js');
+const sql = require('./db.js');
 
 const Usuarios = function(user){
     this.nombre = user.nombre;
