@@ -1,5 +1,5 @@
 module.exports = app => {
-    const user = require('../controllers/userController.js');
+    const user = require('./userController.js');
 
     app.get('/user', user.findAll);
 
